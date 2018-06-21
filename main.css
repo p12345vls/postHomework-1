@@ -1,11 +1,10 @@
-
-
 a:visited {
 
     color: whitesmoke;
     background-color: transparent;
     text-decoration: underline;
 }
+
 a:hover {
     color: aqua;
     background-color: transparent;
@@ -14,37 +13,50 @@ a:hover {
 
 
 div.rel {
-    position:relative;
-    width:800px;
-    height:300px;
+    position: relative;
+    width: 800px;
+    height: 300px;
 }
+
 .picStyle {
-    width:340px;
-    height:200px;
+    width: 340px;
+    height: 200px;
     border-radius: 40%;
     padding: 3px;
     border: 1px solid #ddd;
     box-shadow: 0 0 0 5px #eee, 0 0 0 5px #aaa;
-    position:absolute;
-    top:0;
-    bottom:0;
-    margin:auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
 }
-.body1{padding:10px; background-image: url(images/bgr.jpg); background-size: cover;}
 
-.p1{
+.body1 {
+    padding: 10px;
+    background-image: url(images/bgr.jpg);
+    background-size: cover;
+}
+
+.p1 {
     background-color: black;
 
 }
-#header1{
-    background-image: url(images/back.jpeg); background-size: cover;
+
+#header1 {
+    background-image: url(images/back.jpeg);
+    background-size: cover;
     font-family: Lucida Console, Monaco, monospace;
-    color: white;border: 5px solid black; text-align: center;
-    font-family: OCR A Std, monospace; font-size: 50px;
+    color: white;
+    border: 5px solid black;
+    text-align: center;
+    font-family: OCR A Std, monospace;
+    font-size: 50px;
 }
+
 div.gallery {
     border: 1px solid #ccc;
-    width:300px; height=200px;
+    width: 300px;
+    height=200px;
 }
 
 div.gallery:hover {
@@ -62,10 +74,12 @@ div.desc {
     color: blue;
 }
 
-h2{
-   font-family: Lucida Console, Monaco, monospace;
-    color: white;text-align: center;
-    font-family: OCR A Std, monospace; font-size: 40px; 
+h2 {
+    font-family: Lucida Console, Monaco, monospace;
+    color: white;
+    text-align: center;
+    font-family: OCR A Std, monospace;
+    font-size: 40px;
 }
 
 .responsive {
@@ -73,40 +87,51 @@ h2{
     float: next;
     width: 30%;
 }
-h2{ color: white;}
+
+h2 {
+    color: white;
+}
 
 
 #wrapper {
-    width: 90%; 
+    width: 90%;
 
-    margin: 10px auto; 
+    margin: 10px auto;
     border: 1px solid #522923;
     padding: 10px 20px;
     background-color: #c1b9bb;
     overflow: hidden;
 }
 
-.right{
-   width:200px; height:150px;
-    float:right;
+.right {
+    width: 200px;
+    height: 150px;
+    float: right;
     border: 3px solid #f6e76f;
- margin: 5px;
+    margin: 5px;
 
 }
-.left{
-    width:200px; height:150px;
-    float:left;
+
+.left {
+    width: 200px;
+    height: 150px;
+    float: left;
     border: 3px solid #f6e76f;
     margin: 5px;
 }
-div.p{font-size: 20px;}
 
-h1{
-    font-family: OCR A Std, monospace; font-size: 50px;
+div.p {
+    font-size: 20px;
 }
 
-.shadow{
-    border: 1px solid
-    padding: 10px;
-    box-shadow: 5px 10px #888888;"
+h1 {
+    font-family: OCR A Std, monospace;
+    font-size: 50px;
+}
+
+.shadow {
+    border: 1px solid padding: 10px;
+    box-shadow: 5px 10px #888888;
+    "
+
 }
