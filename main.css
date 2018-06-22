@@ -130,8 +130,9 @@ h1 {
 }
 
 .shadow {
-    border: 1px solid padding: 10px;
+    border: 1px solid;
+    padding: 10px;
     box-shadow: 5px 10px #888888;
-    "
+    
 
 }
